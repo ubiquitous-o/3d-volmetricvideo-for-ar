@@ -33,7 +33,6 @@ For this project, I use ["Learning to Recover 3D Scene Shape from a Single Image
 4. If you want to chance point size, you can see `Assets/PointCloud` in this project.
 
 5. Play it! Deploy it!  
-![gif](https://imgur.com/dr89Ud2.gif)|![gif](https://imgur.com/EIglux8.gif)|![gif](https://imgur.com/512GYTn.gif)
- ---- | ---- | ---- 
+![gif](https://imgur.com/dr89Ud2.gif)![gif](https://imgur.com/EIglux8.gif)![gif](https://imgur.com/512GYTn.gif)
 
 
