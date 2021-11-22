@@ -1,7 +1,7 @@
 # 3D volumetric video viewer for AR
 This is 3D volmetric video viewer project for AR by using depth images created by machine learning.
 
-![gif](https://imgur.com/KAHSdBK.gif)
+![gif](https://imgur.com/KAHSdBK.gif)  
 ![gif](https://imgur.com/yL1xYCG.gif)
 
 
@@ -13,7 +13,7 @@ This is 3D volmetric video viewer project for AR by using depth images created b
 
 ### Preparation
 For this project, I use ["Learning to Recover 3D Scene Shape from a Single Image"](https://github.com/aim-uofa/AdelaiDepth/tree/main/LeReS) to get depth images from a monocular RGB video.  
-1. You should compless the video for the acceralation.  
+1. You should compress the video for the acceralation.  
 ```ffmpeg -i yourvideo.mp4 -vf scale=640:-1 yourvideo_out.mp4```  
 2. Convert your video to sequential images to load the machine leaning pipeline.  
 ```ffmpeg -i yourviedeo_out.mp4 -vcodec png dir/%d.png ```
@@ -22,9 +22,9 @@ For this project, I use ["Learning to Recover 3D Scene Shape from a Single Image
 
 ### Instaration
 **This part is about on this Unity project.**  
-1. Import your depth images obtained by above process to `Assets/Resource/yourdir/Depth`. And your RGB images to `Assets/Resources/yourdir/RGB`.
+1. Import your depth images obtained by above process to `Assets/Resource/yourdir/Depth`. Also import your RGB images to `Assets/Resources/yourdir/RGB`.
 
-2. You should check *Read/Write Enabled* in inspector of all of your imamge imported.
+2. You should check *Read/Write Enabled* in inspector of all of your image imported.
 ![fig1](src/fig1.png)
 
 3. At PngSeqAnimater of `Canvas/RGB` and `Canvas/Depth` in the Hierarchy, you should change the parameters.   
@@ -33,8 +33,8 @@ For this project, I use ["Learning to Recover 3D Scene Shape from a Single Image
 4. If you want to chance point size, you can see `Assets/PointCloud` in this project.
 
 5. Play it! Deploy it!  
-![gif](https://imgur.com/dr89Ud2.gif)
-![gif](https://imgur.com/EIglux8.gif)
+![gif](https://imgur.com/dr89Ud2.gif)  
+![gif](https://imgur.com/EIglux8.gif)  
 ![gif](https://imgur.com/512GYTn.gif)
 
 
